@@ -8,6 +8,7 @@ The scripts are available in those two repositories:
 
 ## Variables / notes
 **RemoteKVM :** The hostname (or IP address) of the KVM destination host 
+
 **StoragePool :** the directory where the virtual machines disk images reside
 
 ## KVMNetworkExport.bash
