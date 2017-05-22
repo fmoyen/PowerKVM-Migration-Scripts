@@ -31,7 +31,7 @@ if [ $# -eq 1 ]
 then 
   ListOfVMs=$1
 else
-  ListOfVMs=`virsh list --all --name | grep KVM`
+  ListOfVMs=`virsh list --all --name`
 fi
 
 echo "####################################################################"
